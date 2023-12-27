@@ -1,0 +1,25 @@
+.todo-items{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 16px 10px;
+}
+
+.todo-container{
+   display: flex;
+}
+.todo-text{
+   padding-top: 7px;
+   padding-left: 16px;
+   color: #404040;
+   font-size: 22px;
+}
+
+.cross-icon{
+   cursor: pointer;
+   margin-right: 15px;
+}
+
+.line-through{
+   text-decoration: line-through 3px solid red;
+}
